@@ -1,0 +1,172 @@
+<html>
+  <head>
+  <title>My profile website</title>
+  <meta charset="utf-8">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,600|Lato:400,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="sidebar">
+      <ul class="text-center">
+        <li>
+          <a href="#me">
+            <i class="fa fa-globe"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#favorite-movies">
+            <i class="fa fa-film"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#about">
+            <i class="fa fa-question-circle"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div id="page-content">
+        <div id="wrapper">
+          <div id="left" class="text-center">
+            <div class="card text-center" id="me">
+              <img class="img-circle" src="images/Antoine A.png" alt="Antoine Picture">
+              <h1>Antoine AYOUB</h1>
+              <h2>CEO @YOURWINE</h2>
+              <p>
+                Après une expérience de plus de 5 ans dans le conseil et près de 2 ans dans le développement commercial, j'ai décidé de réorienter <strong>mon projet professionnel</strong> vers l'entrepreneuriat. Vinify est une strartup qui veut faire bouger le monde du vin.
+              </p>
+              <a href="https://fr.linkedin.com/in/antoineayoub" class="btn-green">See my profile</a>
+            </div>
+            <div class="card text-center">
+              <ul class="list-inline">
+                <li><a href="https://twitter.com/antoineayoub" target="_blank"><i class="fa fa-facebook"></i><br>Facebook</a></li>
+                <li><a href="https://twitter.com/antoineayoub" target="_blank"><i class="fa fa-twitter"></i><br>Twitter</a></li>
+                <li><a href="https://github.com/antoineayoub/" target="_blank"><i class="fa fa-github"></i><br>Github</a></li>
+              </ul>
+            </div>
+            <div class="card" id="footer">
+              <h1>About this page</h1>
+              <p>
+                This page has been coded during the FullStack program @LeWagon. That was probably the best experience of my entire life.
+              </p>
+              <ul class="list-inline" id="about">
+                 <li>
+                   <a href="#">
+                     <i class="fa fa-heart"></i>
+                   </a>
+                 </li>
+                 <li>
+                   <a href="#">
+                     <i class="fa fa-share"></i>
+                   </a>
+                 </li>
+                 <li>
+                   <a href="#">
+                     <i class="fa fa-star"></i>
+                   </a>
+                 </li>
+              </ul>
+            </div>
+          </div>
+          <div id="right" class="text-center">
+            <div class="card text-center" id="favorite-movies">
+              <h1>My favorite movies</h1>
+              <table>
+                <tbody>
+                  <tr>
+                    <td>
+                      <!-- Button trigger modal -->
+                      <a href="#" data-toggle="modal" data-target="#jackie-brown">
+                        <img src="images/Jackie-Brown-One-Sheet-Poster.png" alt="Jackie Brown"  data-toggle="modal" data-target=".bs-example-modal-lg">
+                      </a>
+                    </td>
+                    <td>
+                      <h2>Jackie Brown</h2>
+                      <p>
+                        Jackie Brown est un film policier américain écrit et réalisé par Quentin Tarantino et sorti en 1997. C'est la première fois que le réalisateur adapte un roman à l'écran, en l'occurrence Punch créole (Rum Punch) d'Elmore Leonard sorti en 1992. Pam Grier a le rôle principal.
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a href="#" data-toggle="modal" data-target="#inglo-bastard">
+                        <img src="images/inglorious-bastard.png" alt="Inglourious Bastard">
+                      </a>
+                    </td>
+                    <td>
+                      <h2>Inglourious Basterds</h2>
+                      <p>
+                        Film de guerre uchronique germano-américain écrit et réalisé par Quentin Tarantino, sorti en 2009. L'histoire se déroule en France durant la Seconde Guerre mondiale et narre la vengeance d'une jeune Juive, Shosanna Dreyfus (Mélanie Laurent), dont la famille a été assassinée par les nazis.
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a href="#" data-toggle="modal" data-target="#huit-salopard">
+                        <img src="images/les8salopards-sam-jackson-hd.png" alt="Les 8 salopards">
+                      </a>
+                    </td>
+                    <td>
+                      <h2>Les Huit Salopards</h2>
+                      <p>
+                        Quelques années après la Guerre de Sécession, le chasseur de primes John Ruth, dit Le Bourreau, fait route vers Red Rock, où il conduit sa prisonnière Daisy Domergue se faire pendre. Sur leur route, ils rencontrent le Major Marquis Warren, un ancien soldat lui aussi devenu chasseur de primes, et Chris Mannix, le nouveau shérif de Red Rock.
+                      </p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="clear"></div>
+
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="jackie-brown" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Jackie Brown</h4>
+          </div>
+          <div class="modal-body text-center">
+            <iframe width="420" height="315" src="https://www.youtube.com/embed/7TnOf2AWRMo" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="inglo-bastard" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Inglorious Basterds</h4>
+          </div>
+          <div class="modal-body text-center">
+            <iframe width="420" height="315" src="https://www.youtube.com/embed/7omfBlCSvak" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="huit-salopard" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Les Huit Salopards</h4>
+          </div>
+          <div class="modal-body text-center">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/JoLvEad4-aM" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  </body>
+</html>
